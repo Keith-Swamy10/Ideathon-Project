@@ -13,6 +13,13 @@
         android:theme="@style/Theme.MCare"
         tools:targetApi="31">
         <activity
+            android:name=".Thirdactivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".second_activity"
             android:exported="false">
             <meta-data
